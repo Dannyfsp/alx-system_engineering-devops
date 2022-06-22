@@ -1,2 +1,2 @@
 #!/bin/bash
-mv -rua [[:UPPER:]]* /tmp/u
+mv -rua [[:UPPER:]]* ./ /tmp/u
