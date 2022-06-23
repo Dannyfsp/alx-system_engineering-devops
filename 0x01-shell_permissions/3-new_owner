@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo chown betty new_owner.txt
+sudo chown betty 3-new_owner
