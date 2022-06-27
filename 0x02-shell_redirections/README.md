@@ -7,4 +7,6 @@ FOR SHELL REDIRECTION
 5. Display the first 10 lines of /etc/passwd.
 6. Writing a script that displays the third line of the file iacta.
 7. Writing a shell script that creates a file exactly and copy same to a particular file
-8. A scripts that Save current state of directory
+8. A scripts that Save current state of directory.
+9. A script that duplicate the last line.
+10. A script that deletes all regular files of a particular file .js
