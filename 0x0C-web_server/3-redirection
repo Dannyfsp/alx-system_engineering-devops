@@ -26,7 +26,7 @@ SERVER_CONFIG=\
 	}
 }"
 
-echo -e '$SERVER_CONFIG' > /etc/nginx/sites-enabled/default
+echo -e "$SERVER_CONFIG" > /etc/nginx/sites-enabled/default
 
 service nginx restart
 # using sed:
