@@ -34,16 +34,16 @@ defaults
         errorfile 504 /etc/haproxy/errors/504.http
 
 frontend http_front
-   bind *:80
-   stats uri /haproxy?stats
-   http-request set-header X-Forwarded-Proto http
-   default_backend http_rear
+	bind *:80
+	stats uri /haproxy?stats
+	http-request set-header X-Forwarded-Proto http
+	default_backend http_rear
 
 frontend http_front-https
-   bind *:443 ssl crt /etc/haproxy/certs/www.danbogare.tech.pem
-   http-request set-header X-Forwarded-Proto https
-   default_backend http_rear
+	bind *:443 ssl crt /etc/haproxy/certs/www.danbogare.tech.pem
+	http-request set-header X-Forwarded-Proto https
+	default_backend http_rear
 backend http_rear
-   balance      roundrobin
-   server 74143-web-01  18.234.168.129:80 check
-   server 74143-web-02  54.89.117.18:80 check
+	balance      roundrobin
+	server 74143-web-01  18.234.168.129:80 check
+	server 74143-web-02  54.89.117.18:80 check
