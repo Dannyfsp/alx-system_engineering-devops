@@ -6,4 +6,4 @@ Let’s practice by exploring the infrastructure side (network, servers, securit
 ![alt image](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/298/aJPw3mw.jpg)
 
 Below is the link to my published article:
-[https://medium.com/@Dannyfsp/what-happens-when-you-type-https-www-google-com-in-your-browser-and-press-enter](https://medium.com/@Dannyfsp/what-happens-when-you-type-https-www-google-com-in-your-browser-and-press-enter-1bf8be166031)
+- [https://medium.com/@Dannyfsp/what-happens-when-you-type-https-www-google-com-in-your-browser-and-press-enter](https://medium.com/@Dannyfsp/what-happens-when-you-type-https-www-google-com-in-your-browser-and-press-enter-1bf8be166031)
