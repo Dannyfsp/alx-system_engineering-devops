@@ -1,0 +1,8 @@
+apt-get install ufw
+ufw status
+ufw enable -y
+ufw default deny incoming -y
+ufw default allow outgoing -y
+ufw allow 22/tcp
+ufw allow 443/tcp
+ufw allow 80/tcp
