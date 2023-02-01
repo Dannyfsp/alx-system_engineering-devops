@@ -1,4 +1,5 @@
-apt-get install ufw
+apt-get -y update
+apt-get -y install ufw
 ufw status
 ufw enable -y
 ufw default deny incoming -y
